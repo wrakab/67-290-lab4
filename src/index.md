@@ -12,8 +12,8 @@ const colors = {
 <main class="story">
   <header class="story-header">
     <p class="eyebrow">A year of evenings in Doha</p>
-    <h1>In August, Doha still feels like 40.5°C at 8 pm</h1>
-    <p class="subtitle">Each point shows the median feels-like temperature at noon or 8 pm for that month from 1991 to 2020.</p>
+    <h1>In August, Doha still feels like 40.9°C at 8 pm</h1>
+    <p class="subtitle">Each point shows the median feels-like temperature at noon or 8 pm for that month, using hourly estimates from January 1991 through October 2026.</p>
   </header>
 
   <figure class="chart-card">
@@ -38,7 +38,7 @@ resize((width) => {
       fontSize: compact ? "12px" : "14px"
     },
     ariaLabel: "Median feels-like temperatures in Doha at noon and 8 pm by month",
-    ariaDescription: "Both lines rise from winter to summer. August feels like 44.8 degrees Celsius at noon and 40.5 degrees Celsius at 8 pm.",
+    ariaDescription: "Both lines rise from winter to summer. August feels like 45 degrees Celsius at noon and 40.9 degrees Celsius at 8 pm.",
     x: {
       domain: [-0.25, 12.45],
       ticks: compact ? [0, 2, 4, 7, 9, 11] : 12,
@@ -132,7 +132,7 @@ resize((width) => {
 
   </figure>
 
-  <p class="comparison">At 8 pm, Doha feels like a median 16.3°C in January, compared with 40.5°C in August.</p>
+  <p class="comparison">At 8 pm, Doha feels like a median 16.6°C in January, compared with 40.9°C in August.</p>
 
   <footer class="source">Source: Open-Meteo’s ERA5 data, which combines weather observations and modeling to estimate conditions near central Doha.</footer>
 </main>

@@ -1,7 +1,7 @@
 import fs from "node:fs";
 
 const sourceUrl = new URL(
-  "../../data/doha-era5-apparent-temperature-1991-2020.json",
+  "../../data/doha-era5-apparent-temperature-1991-2026-10.json",
   import.meta.url
 );
 const source = JSON.parse(fs.readFileSync(sourceUrl, "utf8"));
