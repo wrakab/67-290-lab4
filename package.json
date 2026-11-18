@@ -1,0 +1,13 @@
+{
+  "name": "doha-feels-like",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "observable preview --host 127.0.0.1",
+    "build": "observable build"
+  },
+  "dependencies": {
+    "@observablehq/framework": "latest",
+    "@observablehq/plot": "latest"
+  }
+}
